@@ -2,7 +2,7 @@
 
 namespace ILib.CL
 {
-	[AttributeUsage(AttributeTargets.Field | AttributeTargets.Class , AllowMultiple = true,Inherited =true)]
+	[AttributeUsage(AttributeTargets.Field | AttributeTargets.Class, AllowMultiple = true, Inherited = true)]
 	public class ArgAttribute : Attribute
 	{
 		public string LongName { get; private set; }
